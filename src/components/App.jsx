@@ -86,9 +86,9 @@ function App()
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/search" element={<SearchPage isInWatchList={isInWatchList} addToWatchList={addToWatchList} />} />
-        <Route path="/watchlist" element={<WatchlistPage watchList={watchList} resetWatchList={resetWatchList} removeFromWatchList={removeFromWatchList} />} />
+        <Route path="/Movie-Search-Website" element={<HomePage />} />
+        <Route path="/Movie-Search-Website/search" element={<SearchPage isInWatchList={isInWatchList} addToWatchList={addToWatchList} />} />
+        <Route path="/Movie-Search-Website/watchlist" element={<WatchlistPage watchList={watchList} resetWatchList={resetWatchList} removeFromWatchList={removeFromWatchList} />} />
       </Routes>
     </>
   )
