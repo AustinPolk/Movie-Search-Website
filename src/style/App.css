@@ -1,0 +1,38 @@
+header 
+{
+  background: #333;
+  color: white;
+  padding: 1rem;
+  
+}
+
+header nav
+{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header h2
+{
+    color: #ffcc00;
+    text-align: center;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    padding: 0px;
+    margin: 5px;
+}
+header h3
+{
+    color: #ffcc00;
+    font-style: italic;
+    text-align: center;
+    padding: 0px;
+    margin: 5px;
+}
+
+header a 
+{
+  color: #ffcc00;
+  text-decoration: none;
+  margin-left: 1rem;
+}
